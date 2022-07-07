@@ -49,3 +49,4 @@ int main(){
 	  2. No smoooth lines
 	  
 */
+//ceil() checks if the value is float, if it is then it round off and return..
