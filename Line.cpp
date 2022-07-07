@@ -27,12 +27,12 @@ int main(){
 
 	cout  <<  "Loop and printing : " << endl;
 	for(int i =0 ; i <= step ; i++) {
-		cout << "x: " << ceil(x1) << endl;
+		cout << "x: " << ceil(x1) << endl;//for rounding off the value...
 		x1 = x1 + xinC ;
 	}
 
     for(int i = 0 ; i <=step ; i++) {
-		cout << "  y: " << ceil(y1) << endl;
+		cout << "  y: " << ceil(y1) << endl;//for rounding off the value...
         y1 =  y1 + yinC ;
     }
 
