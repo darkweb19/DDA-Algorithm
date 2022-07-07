@@ -1,6 +1,7 @@
 //DDA Algorithm for finding the points :
 
 #include<iostream> 
+#include<cmath>
 using namespace std;
 int main(){
     float x1 , x2 ,y1, y2 ;
@@ -26,12 +27,12 @@ int main(){
 
 	cout  <<  "Loop and printing : " << endl;
 	for(int i =0 ; i <= step ; i++) {
-		cout << "x: " << x1 << endl;
+		cout << "x: " << ceil(x1) << endl;
 		x1 = x1 + xinC ;
 	}
 
     for(int i = 0 ; i <=step ; i++) {
-		cout << "  y: " << y1 << endl;
+		cout << "  y: " << ceil(y1) << endl;
         y1 =  y1 + yinC ;
     }
 
